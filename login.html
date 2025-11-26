@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body { font-family: Arial; padding: 40px; }
+        form { width: 300px; margin: auto; }
+        input { width: 100%; padding: 8px; margin: 8px 0; }
+        button { width: 100%; padding: 10px; }
+    </style>
+</head>
+<body>
+
+<h2>User Login</h2>
+
+<form action="/login" method="POST">
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
+</form>
+
+<p>New user? <a href="/">Register here</a></p>
+
+</body>
+</html>

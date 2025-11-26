@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <style>
+        body { font-family: Arial; padding: 40px; }
+        form { width: 300px; margin: auto; }
+        input { width: 100%; padding: 8px; margin: 8px 0; }
+        button { width: 100%; padding: 10px; }
+    </style>
+</head>
+<body>
+
+<h2>User Registration</h2>
+
+<form action="/register" method="POST">
+    <input type="text" name="username" placeholder="Username">
+    <input type="email" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <input type="password" name="confirmPassword" placeholder="Confirm Password">
+    <button type="submit">Register</button>
+</form>
+
+<p>Already registered? <a href="/login">Login here</a></p>
+
+</body>
+</html>
